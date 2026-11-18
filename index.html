@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Muhammad Sohail - Computer Science student and web developer portfolio">
+  <title>Muhammad Sohail | Resume</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#home">Sohail<span>.</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header id="home" class="hero">
+  <div class="container">
+    <div class="row align-items-center min-vh-100">
+      <div class="col-lg-8">
+        <p class="eyebrow">COMPUTER SCIENCE STUDENT</p>
+        <h1>Hi, I'm <span>Muhammad Sohail</span></h1>
+        <h2>Aspiring Web Developer</h2>
+        <p class="lead mt-4">I build practical web applications and enjoy learning technologies that solve real problems. My current focus is PHP, Laravel, JavaScript and responsive frontend development.</p>
+        <a class="btn btn-accent mt-3 me-2" href="#projects">View Projects</a>
+        <a class="btn btn-outline-light mt-3" href="#contact">Contact Me</a>
+      </div>
+      <div class="col-lg-4 text-center mt-5 mt-lg-0">
+        <div class="avatar">MS</div>
+        <p class="small text-white-50 mt-3">Curious learner • Problem solver • Developer</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+<section id="about" class="section">
+  <div class="container narrow">
+    <p class="eyebrow">INTRODUCTION</p><h2 class="section-title">About Me</h2>
+    <p>I am a Computer Science student at Iqra University with an interest in web development and software engineering. I have practiced building CRUD applications, authentication flows and responsive user interfaces. I am continuously improving my programming, database and problem-solving skills through coursework and personal projects.</p>
+  </div>
+</section>
+
+<section id="education" class="section section-alt">
+  <div class="container narrow">
+    <p class="eyebrow">ACADEMIC BACKGROUND</p><h2 class="section-title">Education</h2>
+    <div class="timeline-card">
+      <h3>Bachelor of Science in Computer Science</h3>
+      <p class="muted mb-1">Iqra University</p>
+      <p class="mb-0">Undergraduate student — coursework includes programming, databases, operating systems, networking and software engineering.</p>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="section">
+  <div class="container">
+    <p class="eyebrow">WHAT I WORK WITH</p><h2 class="section-title">Technical Skills</h2>
+    <div class="row g-3" id="skillList">
+      <div class="col-6 col-md-4 col-lg-3"><div class="skill">HTML5 & CSS3</div></div>
+      <div class="col-6 col-md-4 col-lg-3"><div class="skill">JavaScript</div></div>
+      <div class="col-6 col-md-4 col-lg-3"><div class="skill">Bootstrap 5</div></div>
+      <div class="col-6 col-md-4 col-lg-3"><div class="skill">PHP</div></div>
+      <div class="col-6 col-md-4 col-lg-3"><div class="skill">Laravel</div></div>
+      <div class="col-6 col-md-4 col-lg-3"><div class="skill">React</div></div>
+      <div class="col-6 col-md-4 col-lg-3"><div class="skill">Python</div></div>
+      <div class="col-6 col-md-4 col-lg-3"><div class="skill">SQL / DBMS</div></div>
+      <div class="col-6 col-md-4 col-lg-3"><div class="skill">Git & GitHub</div></div>
+    </div>
+    <button class="btn btn-accent mt-4" id="skillButton">Show learning focus</button>
+    <p id="skillMessage" class="mt-3 fw-semibold" aria-live="polite"></p>
+  </div>
+</section>
+
+<section id="projects" class="section section-alt">
+  <div class="container">
+    <p class="eyebrow">SELECTED ACADEMIC WORK</p><h2 class="section-title">Projects</h2>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4"><article class="project-card"><span class="project-no">01</span><h3>PaaniLink</h3><p>A frontend concept for a water tanker booking and dispatch system, developed with HTML, CSS, JavaScript and Bootstrap 5.</p><p class="tags">HTML • CSS • JavaScript • Bootstrap</p></article></div>
+      <div class="col-md-6 col-lg-4"><article class="project-card"><span class="project-no">02</span><h3>Student Grade Management</h3><p>A programming project for managing student records and grades using structured data and basic application logic.</p><p class="tags">Python • OOP</p></article></div>
+      <div class="col-md-6 col-lg-4"><article class="project-card"><span class="project-no">03</span><h3>Health & Wellness Analysis</h3><p>A data analysis project exploring health indicators and summary statistics with tabular data and visualizations.</p><p class="tags">Python • Pandas • NumPy</p></article></div>
+    </div>
+  </div>
+</section>
+
+<section id="experience" class="section">
+  <div class="container narrow">
+    <p class="eyebrow">PROFESSIONAL EXPERIENCE</p><h2 class="section-title">Experience</h2>
+    <div class="timeline-card"><h3>Academic & Personal Development</h3><p class="mb-0">Currently building practical experience through university assignments, coding exercises and independent web development practice. No formal employment experience has been listed.</p></div>
+  </div>
+</section>
+
+<section id="certifications" class="section section-alt">
+  <div class="container narrow">
+    <p class="eyebrow">CONTINUOUS LEARNING</p><h2 class="section-title">Certifications & Achievements</h2>
+    <p>Formal certifications and awards have not yet been provided. This section can be updated when verified certificates or achievements are available.</p>
+  </div>
+</section>
+
+<section id="contact" class="section contact-section">
+  <div class="container narrow">
+    <p class="eyebrow">GET IN TOUCH</p><h2 class="section-title">Contact</h2>
+    <p>I'm open to learning opportunities, academic collaboration and entry-level web development opportunities.</p>
+    <div class="contact-lines">
+      <p><strong>Email:</strong> <a href="mailto:your.email@example.com">Add your email address</a></p>
+      <p><strong>Location:</strong> Karachi, Pakistan</p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/your-username" target="_blank" rel="noopener">Add your GitHub profile</a></p>
+    </div>
+    <p class="small text-secondary mt-4">Please replace the example email and GitHub username with your active accounts before publishing.</p>
+  </div>
+</section>
+</main>
+<footer class="footer"><div class="container d-flex flex-column flex-md-row justify-content-between"><span>© <span id="year"></span> Muhammad Sohail</span><span>Designed and developed with HTML, CSS & JavaScript</span></div></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
