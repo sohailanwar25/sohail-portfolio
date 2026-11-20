@@ -1,4 +1,4 @@
-# Muhammad Askani — Resume Website
+# Muhammad sohail — Resume Website
 
 A responsive, original resume/portfolio website built with HTML, CSS, JavaScript and Bootstrap 5.
 
